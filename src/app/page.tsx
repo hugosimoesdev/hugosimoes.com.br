@@ -71,24 +71,6 @@ export default function Home() {
             </Card>
           </Link>
 
-          <Link
-            href="https://x.com/hugosimoesdev"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card className="group overflow-hidden border-2 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-              <Button
-                variant="ghost"
-                className="w-full justify-center gap-3 text-xl font-medium transition-all duration-300"
-              >
-                <Twitter className="h-6 w-6 text-blue-400 group-hover:scale-110 transition-transform duration-300" />
-                <span className="group-hover:font-bold transition-all duration-300">
-                  Twitter
-                </span>
-              </Button>
-            </Card>
-          </Link>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Link
               href="/cv-pt-br.pdf"
